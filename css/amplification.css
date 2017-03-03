@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.js-amplification{
+	margin:0 auto;
+	width:640px;
+	position: relative;
+}
+
+.js-amplification .amplification-img{
+	display: block;
+	font-size: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.js-amplification .amplification-btn{
+	background: rgba(255,255,255,.5);
+	position: absolute;
+	display: none;
+}
+
+.js-amplification .amplification-show{
+	background: white;
+	border:1px solid #ccc;
+	border-radius:3px;
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+
+.js-amplification .amplification-show .ampshow-img{position: absolute;}
+
+.js-amplification .amphover-show{
+	background: white;
+	opacity: 0;
+	cursor:move;
+	position: absolute;
+	z-index: 55;
+}
